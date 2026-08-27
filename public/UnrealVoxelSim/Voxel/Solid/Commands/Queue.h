@@ -14,6 +14,6 @@ class Queue final : public Api::ICommandSink, public Api::ICommandProcessor
     void ProcessCommands(Simulation::Api::StepContext context) override;
   private:
     class Impl;
-    std::unique_ptr<Impl> Impl_;
+    std::unique_ptr<Impl> m_Impl;
 };
 } // namespace UnrealVoxelSim::Voxel::Solid::Commands
