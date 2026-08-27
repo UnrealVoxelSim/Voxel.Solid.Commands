@@ -59,4 +59,4 @@ void Queue::ProcessCommands(const Simulation::Api::StepContext context)
     std::erase_if(m_Impl->Pending, [&](const auto &queued) { return queued.Stamp().TargetTick <= context.Tick; });
     m_Impl->LastProcessed = context.Tick;
 }
-} // namespace UnrealVoxelSim::Voxel::Solid::Commands
+}

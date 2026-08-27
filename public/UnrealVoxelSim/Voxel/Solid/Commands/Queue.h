@@ -19,4 +19,4 @@ namespace UnrealVoxelSim::Voxel::Solid::Commands
 		class Impl;
 		std::unique_ptr<Impl> m_Impl;
 	};
-} // namespace UnrealVoxelSim::Voxel::Solid::Commands
+}
