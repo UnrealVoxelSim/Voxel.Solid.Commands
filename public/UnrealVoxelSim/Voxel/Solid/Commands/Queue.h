@@ -6,6 +6,7 @@
 
 namespace UnrealVoxelSim::Voxel::Solid::Commands
 {
+	// TODO Why is this code in a separate module instead of in Voxel.Solid?
 	class Queue final : public Api::ICommandSink, public Api::ICommandProcessor
 	{
 	public:
